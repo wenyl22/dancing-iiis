@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-C-mpbrYD.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DqWt54c1.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="auth-background">
+            <div class="container" id="login-container" style="display: none;">
+                <h1>Login</h1>
+                <input type="text" id="login-username" placeholder="Username">
+                <input type="password" id="login-password" placeholder="Password">
+                <button id="login-button">Login</button>
+                <p>Don't have an account? <a href="#" id="switch-to-register">Register here</a></p>
+            </div>
+        
+            <div class="container" id="register-container" style="display: none;">
+                <h2>Register</h2>
+                <input type="text" id="register-username" placeholder="Username">
+                <input type="password" id="register-password" placeholder="Password">
+                <button id="register-button">Register</button>
+                <p>Already have an account? <a href="#" id="switch-to-login">Login here</a></p>
+            </div>
+        </div>    
+        <div id="tree-container" style="display: none;">
+            <section class="slideshow">
+                <ul class="navigation"></ul>
+                <div class="detail"></div>
+              </section>
+        </div>
+        
+        <div class="container" id="game-holder">
+            <div id="gameover-container" style="display: none;">
+                <div id="gameover-title">Game Over</div>
+                <div id="gameover-grade">A</div>
+                <button id="gameover-continue">Continue </div>
+            <div id="character-container" style="display: none;">
+                <div id="appearance-selection" > </div>
+                <button id="apply-button">Apply</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.5g-o.com/wp-content/uploads/2020/04/google-jquery-2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/TextPlugin.min.js"></script>
+</body>
+</html>

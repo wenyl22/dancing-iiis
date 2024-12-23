@@ -20,5 +20,10 @@
     "fogColor": "#51BEFF",
     "fogDensity": 0.03,
     "snowy": true,
-    "color": "0xf5504c"
+    "color": "0xffffff",
+    "target": {
+        "x": -2,
+        "y": 5,
+        "z": 2
+    }
 }

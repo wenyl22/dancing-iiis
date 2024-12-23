@@ -1,6 +1,6 @@
 {
     "anime_num": 10,
-    "skyColor": "#ffffff",
+    "skyColor": "#FFFED0",
     "cameraPov": 70,
     "cameraPos": {
         "x": 20.83742428,
@@ -20,5 +20,10 @@
     "fogColor": "#FFFED0",
     "fogDensity": 0.01,
     "snowy": false,
-    "color": "0xf5504c"
+    "color": "0xffffff",
+    "target": {
+        "x": -2,
+        "y": 5,
+        "z": 2
+    }
 }

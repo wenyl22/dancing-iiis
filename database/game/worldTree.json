@@ -2,7 +2,7 @@
     {
         "name": "Calculus",
         "id": 0,
-        "children": [1],
+        "children": [2],
         "father": [],
         "game_type": "maze",
         "num_dia": 4
@@ -19,7 +19,7 @@
         "name": "ThemeI: Winter",
         "id": 2,
         "children": [3, 4],
-        "father": [1],
+        "father": [0, 1],
         "game_type": "music",
         "num_dia": 5
     },
@@ -57,15 +57,15 @@
     },
     
     {
-        "name": "Advanced Computer Graphics",
+        "name": "ThemeIII: Autumn",
         "id": 7,
         "children": [8],
         "father": [5],
-        "game_type": "maze",
-        "num_dia": 4
+        "game_type": "music",
+        "num_dia": 5
     },
     {
-        "name": "ThemeIII: Youth",
+        "name": "ThemeIV: Youth",
         "id": 8,
         "children": [],
         "father": [6, 7],
